@@ -18,8 +18,8 @@ repositories {
 
 dependencies {
     testImplementation("junit:junit:4.13.2")
-    compileOnly("org.scala-lang:scala3-library_3:3.8.3")
-    testImplementation("org.scala-lang:scala3-library_3:3.8.3")
+    compileOnly("org.scala-lang:scala3-library_3:3.9.0")
+    testImplementation("org.scala-lang:scala3-library_3:3.9.0")
     implementation("org.typelevel:cats-core_3:2.13.0") {
         exclude(group = "org.scala-lang")
     }
